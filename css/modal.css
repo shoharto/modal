@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/3.jpg");
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+}
+
+#myBtn {
+    border: 0;
+    background: #898b81;
+    padding: 20px 30px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: .3em;
+    font-family: cursive;
+    font-weight: 600;
+    margin: 100px auto;
+    display: block;
+    border-radius: 25px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: url("../images/2.jpg") rgba(0, 0, 0, .3);
+    background-size: cover;
+    background-position: center;
+}
+
+.modal-content {
+    background: #5cb85c;
+    margin: 11% auto;
+    padding: 20px;
+    width: 500px;
+    height: 450px;
+    border-radius: 25px;
+    text-align: center;
+
+
+}
+
+.modal-context {
+    font-family: 'MV Boli', sans-serif;
+    margin-top: 115px;
+}
+
+@media all and (max-width: 480px){
+    .modal-content {
+        width: 330px;
+        height: 290px;
+    }
+
+    .modal-context {
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 19px
+    }
+
+}
+
+.close {
+    font-size: 29px;
+    float: right;
+    color: #fff;
+}
+
+.close:hover,
+.close:focus {
+    color: firebrick;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Modal Context */
+
+h2 {
+    color: #0efbd8;
+    font-size: 59px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.title {
+    background: rgba(0, 0, 0, .3);
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-family: 'Lithos Pro', sans-serif;
+}
+
+#nameX {
+    font-size: 2.5rem;
+}
+
+.ibeam {
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #f9f9f9;
+    -webkit-animation: 1s esanim step-end infinite;
+    -moz-animation: 1s esanim step-end infinite;
+    -ms-animation: 1s esanim step-end infinite;
+    -o-animation: 1s esanim step-end infinite;
+    animation: 1s esanim step-end infinite;
+}
+
+@keyframes "esanim" {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: rgba(255, 255, 255, 0.5);;
+    }
+}
+
+@-moz-keyframes esanim {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: rgba(255, 255, 255, 0.5);;
+    }
+}
+
+@-webkit-keyframes "esanim" {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+@-ms-keyframes "esanim" {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+@-o-keyframes "esanim" {
+    from,
+    to {
+        color: transparent;
+    }
+    50% {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+
+
+
+
